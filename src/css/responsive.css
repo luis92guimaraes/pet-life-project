@@ -23,6 +23,14 @@
         width: 350px;
     }
 
+    #duvidas h3 {
+        margin: 16px;
+    }
+
+    .duvida .paragrafo {
+        margin: 16px;
+    }
+
     #duvidas img:first-child {
         width: 350px;
     }
@@ -69,6 +77,11 @@
 
 @media(max-width:624px) {
 
+    body {
+        height: auto;
+        overflow-x: hidden;
+    }
+
     header {
         flex-direction: column;
     }
@@ -87,4 +100,32 @@
     #inicio {
         padding: 24px 32px 100px 32px;
     }
+
+    #inicio div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #inicio .botao {
+        max-width: 210px;
+    }
+
+    #clinica {
+        padding: 64px 32px;
+    }
+
+    #farmacia {
+        padding: 64px 32px;
+    }
+
+    #duvidas {
+        padding: 0 28px;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
 }
